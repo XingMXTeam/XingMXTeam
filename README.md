@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @XingMXTeam
+- 👋 Hi, I’m Felix Mao.
 - 👀 I’m interested in computer science and everything benefit my own career. I worked as an Front_End Engineer at Alibaba Group now.
 - 🌱 I’m currently learning algorithm and data structure, and english. Also i have big appetite of reading novels.
 - 💞️ I’m looking to collaborate on an awesome Front_End project
