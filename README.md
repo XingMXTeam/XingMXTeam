@@ -47,7 +47,7 @@ My personal site about AI coding, agent workflows, creator tools, indie hacking,
 
 - Blog: [maoxunxing.com](https://maoxunxing.com)
 - Projects: [maoxunxing.com/projects](https://maoxunxing.com/projects/)
-- YouTube: [@maodi_dev](https://www.youtube.com/@maodi_dev)
+- YouTube: [@maoxunxing](https://www.youtube.com/@maoxunxing)
 - Twitter/X: [@maoxunxing](https://twitter.com/maoxunxing)
 
 ## Keywords
