@@ -21,24 +21,24 @@ The account should highlight AI workflows, agent tooling, creator tools, content
 
 ### Tier A: polish and showcase
 
-| Repository | Action |
-| --- | --- |
-| `agent-workstation` | Polish README, clean metadata, add examples, prepare for public showcase. |
-| `xiaohongshushipfast` | Reposition as Xiaohongshu AI Operator; replace starter-template residue. |
-| `maoxunxing.com` | Use as the central project and writing hub. Add `/projects/` page. |
-| `ebook-maker` | Keep private if it contains real book material; extract a clean public template later. |
-| `a-simple-mcp` | Polish as a small MCP browser-tooling experiment. |
+| Repository | Action | Status |
+| --- | --- | --- |
+| `agent-workstation` | Polish README, clean metadata, add examples, prepare for public showcase. | README and package metadata updated. Needs examples / screenshots. |
+| `xiaohongshushipfast` | Reposition as Xiaohongshu AI Operator; replace starter-template residue. | README rewritten. Needs real MVP implementation and demo. |
+| `maoxunxing.com` | Use as the central project and writing hub. Add `/projects/` page. | Pending. |
+| `ebook-maker` | Keep private if it contains real book material; extract a clean public template later. | Pending. |
+| `a-simple-mcp` | Polish as a small MCP browser-tooling experiment. | README rewritten. Needs screenshots / sample output. |
 
 ### Tier B: keep but do not over-promote
 
-| Repository | Action |
-| --- | --- |
-| `frontend-map` | Keep as historical frontend knowledge asset. |
-| `rag-search` | Keep as AI/RAG experiment if the README clearly states scope and originality. |
-| `crawler_ai_info` | Review and decide whether it supports creator-operation positioning. |
-| `crawler_ai_chrome` | Review and decide whether it supports creator-operation positioning. |
-| `Convert-to-HD-Video` | Add README or archive depending on usefulness. |
-| `capcut_audio_subtitle_align` | Add README or archive depending on usefulness. |
+| Repository | Action | Status |
+| --- | --- | --- |
+| `frontend-map` | Keep as historical frontend knowledge asset. | README repositioned as legacy frontend knowledge archive. |
+| `rag-search` | Keep as AI/RAG experiment if the README clearly states scope and originality. | README rewritten. |
+| `crawler_ai_info` | Review and decide whether it supports creator-operation positioning. | README added. Likely merge with crawler extension later. |
+| `crawler_ai_chrome` | Review and decide whether it supports creator-operation positioning. | README rewritten as Twitter / X crawler extension experiment. |
+| `Convert-to-HD-Video` | Add README or archive depending on usefulness. | README added. Still needs implementation details. |
+| `capcut_audio_subtitle_align` | Add README or archive depending on usefulness. | README added. Still needs implementation details. |
 
 ### Tier C: archive or make private
 
@@ -110,6 +110,20 @@ Every showcased repository should have:
 5. `frontend-map`
 6. `maoxunxing.com` or a dedicated project index repository
 
+## Completed changes
+
+- [x] Updated profile README.
+- [x] Rewrote `xiaohongshushipfast` README.
+- [x] Rewrote `agent-workstation` README.
+- [x] Cleaned `agent-workstation/package.json` metadata.
+- [x] Rewrote `a-simple-mcp` README.
+- [x] Rewrote `rag-search` README.
+- [x] Rewrote `crawler_ai_chrome` README.
+- [x] Added `crawler_ai_info` README.
+- [x] Added `Convert-to-HD-Video` README.
+- [x] Added `capcut_audio_subtitle_align` README.
+- [x] Repositioned `frontend-map` README.
+
 ## Next actions
 
 1. Review GitHub pinned repositories manually.
@@ -121,3 +135,4 @@ Every showcased repository should have:
    - Xiaohongshu AI Operator
    - Ebook Factory
    - MCP Screenshot Inverter
+6. Extract a clean public `ebook-factory-template` from `ebook-maker` after separating real book content.
