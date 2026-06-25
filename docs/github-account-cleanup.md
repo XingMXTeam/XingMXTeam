@@ -14,6 +14,8 @@ The account should highlight AI workflows, agent tooling, creator tools, content
 
 - [x] Rewrite profile README with a clear professional narrative.
 - [x] Link to personal site, featured projects, and public channels.
+- [x] Prioritize public projects in the profile README.
+- [x] Avoid linking private repositories directly from the public profile.
 - [ ] Pin only the most relevant repositories.
 - [ ] Remove low-signal repositories from the first impression.
 
@@ -23,10 +25,10 @@ The account should highlight AI workflows, agent tooling, creator tools, content
 
 | Repository | Action | Status |
 | --- | --- | --- |
-| `agent-workstation` | Polish README, clean metadata, add examples, prepare for public showcase. | README and package metadata updated. Needs examples / screenshots. |
+| `agent-workstation` | Polish README, clean metadata, add examples, prepare for public showcase. | README and package metadata updated. Public case study added to `maoxunxing.com`. Needs examples / screenshots before public release. |
 | `xiaohongshushipfast` | Reposition as Xiaohongshu AI Operator; replace starter-template residue. | README rewritten. Needs real MVP implementation and demo. |
-| `maoxunxing.com` | Use as the central project and writing hub. Add `/projects/` page. | Pending. |
-| `ebook-maker` | Keep private if it contains real book material; extract a clean public template later. | Pending. |
+| `maoxunxing.com` | Use as the central project and writing hub. Add `/projects/` page. | Projects page added / updated in English and Chinese. |
+| `ebook-maker` | Keep private if it contains real book material; extract a clean public template later. | Public case study added to `maoxunxing.com`. Template extraction still pending. |
 | `a-simple-mcp` | Polish as a small MCP browser-tooling experiment. | README rewritten. Needs screenshots / sample output. |
 
 ### Tier B: keep but do not over-promote
@@ -39,6 +41,8 @@ The account should highlight AI workflows, agent tooling, creator tools, content
 | `crawler_ai_chrome` | Review and decide whether it supports creator-operation positioning. | README rewritten as Twitter / X crawler extension experiment. |
 | `Convert-to-HD-Video` | Add README or archive depending on usefulness. | README added. Still needs implementation details. |
 | `capcut_audio_subtitle_align` | Add README or archive depending on usefulness. | README added. Still needs implementation details. |
+| `front-end-architecture` | Remove CRA template residue; mark as low-priority historical experiment. | README replaced with archive note. |
+| `schema-render` | Remove CRA template residue; mark as low-priority schema-rendering experiment. | README replaced with archive note. |
 
 ### Tier C: archive or make private
 
@@ -63,8 +67,8 @@ Empty, tiny, or low-signal demos:
 
 Template residue or unclear frontend demos:
 
-- [ ] `front-end-architecture`
-- [ ] `schema-render`
+- [x] `front-end-architecture` README marked as archived / low-priority.
+- [x] `schema-render` README marked as archived / low-priority.
 - [ ] `xstate-demo`
 - [ ] `xstate-demo2`
 - [ ] `TableDemo`
@@ -86,6 +90,7 @@ Private-only / sensitive repositories:
 - [ ] `all-in-one-promotion` should stay private because it contains business and internal development context.
 - [ ] `english-simple` should stay private until internal GitLab and local-path details are removed.
 - [ ] `ebook-maker` should stay private until real book contents are separated from a clean template.
+- [ ] `agent-workstation` should stay private until examples and sensitive residue are fully cleaned.
 
 ## Repository README standard
 
@@ -103,16 +108,24 @@ Every showcased repository should have:
 
 ## Suggested pinned repositories
 
-1. `agent-workstation`
-2. `xiaohongshushipfast` or renamed `xiaohongshu-ai-operator`
-3. `ebook-factory-template` after extraction from `ebook-maker`
-4. `a-simple-mcp` or renamed `mcp-screenshot-inverter`
+Current public-only pin suggestion:
+
+1. `xiaohongshushipfast`
+2. `a-simple-mcp`
+3. `rag-search`
+4. `crawler_ai_chrome`
 5. `frontend-map`
-6. `maoxunxing.com` or a dedicated project index repository
+6. `maoxunxing.com`
+
+After cleanup, replace weaker pins with:
+
+- `agent-workstation` once public-ready
+- `ebook-factory-template` after extraction from `ebook-maker`
 
 ## Completed changes
 
 - [x] Updated profile README.
+- [x] Reworked profile README to prioritize public repositories.
 - [x] Rewrote `xiaohongshushipfast` README.
 - [x] Rewrote `agent-workstation` README.
 - [x] Cleaned `agent-workstation/package.json` metadata.
@@ -123,16 +136,18 @@ Every showcased repository should have:
 - [x] Added `Convert-to-HD-Video` README.
 - [x] Added `capcut_audio_subtitle_align` README.
 - [x] Repositioned `frontend-map` README.
+- [x] Replaced CRA README in `front-end-architecture`.
+- [x] Replaced CRA README in `schema-render`.
+- [x] Added English and Chinese `/projects/` pages to `maoxunxing.com`.
+- [x] Added English and Chinese Agent Workstation case-study pages.
+- [x] Added English and Chinese Ebook Factory case-study pages.
+- [x] Updated project pages to avoid direct links to private repos.
 
 ## Next actions
 
 1. Review GitHub pinned repositories manually.
 2. Archive or privatize Tier C repositories.
 3. Add demo screenshots to Tier A projects.
-4. Create `/projects/` on `maoxunxing.com`.
-5. Write project case studies for:
-   - Agent Workstation
-   - Xiaohongshu AI Operator
-   - Ebook Factory
-   - MCP Screenshot Inverter
+4. Write a Xiaohongshu AI Operator case study.
+5. Add example traces / screenshots for Agent Workstation.
 6. Extract a clean public `ebook-factory-template` from `ebook-maker` after separating real book content.
