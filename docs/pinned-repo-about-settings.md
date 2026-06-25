@@ -42,7 +42,7 @@ https://maoxunxing.com/projects/
 Topics:
 
 ```text
-xiaohongshu, ai, creator-tools, content-automation, seo, geo, astro, supabase
+xiaohongshu ai creator-tools content-automation seo geo astro supabase
 ```
 
 ## 2. a-simple-mcp
@@ -62,7 +62,7 @@ https://maoxunxing.com/projects/
 Topics:
 
 ```text
-mcp, puppeteer, browser-automation, ai-tools, screenshots, nodejs, gemini
+mcp puppeteer browser-automation ai-tools screenshots nodejs gemini
 ```
 
 Recommended future rename:
@@ -88,7 +88,7 @@ https://maoxunxing.com/projects/
 Topics:
 
 ```text
-chrome-extension, twitter, x, crawler, creator-research, ai-research, content-research
+chrome-extension twitter x crawler creator-research ai-research content-research
 ```
 
 ## 4. frontend-map
@@ -108,7 +108,7 @@ https://maoxunxing.com/projects/
 Topics:
 
 ```text
-frontend, javascript, typescript, vue, frontend-engineering, knowledge-base
+frontend javascript typescript vue frontend-engineering knowledge-base
 ```
 
 ## 5. maoxunxing.com
@@ -130,7 +130,7 @@ https://maoxunxing.com/
 Topics:
 
 ```text
-personal-site, hugo, ai-coding, creator-workflow, seo, geo, blog
+personal-site hugo ai-coding creator-workflow seo geo blog
 ```
 
 ## Reference / do not pin
@@ -146,7 +146,7 @@ Forked/reference-based RAG search backend experiment for learning and internal e
 Topics:
 
 ```text
-rag, fastapi, search, learning-project, reference-implementation
+rag fastapi search learning-project reference-implementation
 ```
 
 Do not pin because it is forked / reference-based.
