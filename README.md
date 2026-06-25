@@ -7,36 +7,46 @@ I spent 10+ years building frontend systems at NetEase and Alibaba, and now focu
 ## Current focus
 
 - AI coding workflows and agentic engineering
-- Multi-agent workstations for writing, research, PPT, PDF, and creator workflows
-- Xiaohongshu / creator content operation systems
+- Creator tools and content operation systems
+- Xiaohongshu / creator workflow automation
 - Personal publishing pipelines and SEO/GEO experiments
 - Frontend architecture, product engineering, and developer tooling
 
-## Featured projects
-
-### [Agent Workstation](https://github.com/XingMXTeam/agent-workstation)
-
-A reusable multi-agent orchestration framework powered by Codex-style agents. It is designed around pipelines, agent definitions, schema validation, retries, parallel execution, and run artifacts.
+## Featured public projects
 
 ### [Xiaohongshu AI Operator](https://github.com/XingMXTeam/xiaohongshushipfast)
 
 An AI content operation system for creators, personal brands, and small teams. The goal is not just AI writing, but a repeatable content operating system: topic discovery, competitor analysis, note drafting, publishing plans, and review loops.
 
-### [Ebook Factory](https://github.com/XingMXTeam/ebook-maker)
-
-A Markdown-to-ebook production pipeline based on Pandoc, Make, Docker, and a TypeScript CLI. It supports a repeatable personal publishing workflow from draft to PDF / EPUB / MOBI.
-
 ### [MCP Screenshot Inverter](https://github.com/XingMXTeam/a-simple-mcp)
 
 A small MCP + Puppeteer experiment that lets an LLM call browser tooling to capture webpages and transform screenshots.
+
+### [RAG Search API](https://github.com/XingMXTeam/rag-search)
+
+A compact FastAPI backend experiment that combines web search, vector reranking, detail fetching, and content filtering for RAG-style workflows.
+
+### [Crawler AI Chrome](https://github.com/XingMXTeam/crawler_ai_chrome)
+
+A Chrome extension experiment for collecting public Twitter / X page content for AI-assisted research and creator-operation workflows.
+
+### [Frontend Map](https://github.com/XingMXTeam/frontend-map)
+
+A historical frontend knowledge archive covering JavaScript, TypeScript, Vue, and broader frontend engineering topics.
 
 ### [maoxunxing.com](https://maoxunxing.com)
 
 My personal site about AI coding, agent workflows, creator tools, indie hacking, investing, and long-form technical writing.
 
+## Private / in-progress work
+
+- **Agent Workstation** — a reusable multi-agent orchestration framework for task-specific AI workstations. Public case study / template cleanup in progress.
+- **Ebook Factory** — a Markdown-to-ebook production pipeline based on Pandoc, Make, Docker, and a TypeScript CLI. A clean public template should be extracted later.
+
 ## Writing and channels
 
 - Blog: [maoxunxing.com](https://maoxunxing.com)
+- Projects: [maoxunxing.com/projects](https://maoxunxing.com/projects/)
 - YouTube: [@maodi_dev](https://www.youtube.com/@maodi_dev)
 - Twitter/X: [@maoxunxing](https://twitter.com/maoxunxing)
 
