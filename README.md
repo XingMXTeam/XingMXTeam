@@ -22,10 +22,6 @@ An AI content operation system for creators, personal brands, and small teams. T
 
 A small MCP + Puppeteer experiment that lets an LLM call browser tooling to capture webpages and transform screenshots.
 
-### [RAG Search API](https://github.com/XingMXTeam/rag-search)
-
-A compact FastAPI backend experiment that combines web search, vector reranking, detail fetching, and content filtering for RAG-style workflows.
-
 ### [Crawler AI Chrome](https://github.com/XingMXTeam/crawler_ai_chrome)
 
 A Chrome extension experiment for collecting public Twitter / X page content for AI-assisted research and creator-operation workflows.
@@ -42,6 +38,10 @@ My personal site about AI coding, agent workflows, creator tools, indie hacking,
 
 - **Agent Workstation** — a reusable multi-agent orchestration framework for task-specific AI workstations. Public case study / template cleanup in progress.
 - **Ebook Factory** — a Markdown-to-ebook production pipeline based on Pandoc, Make, Docker, and a TypeScript CLI. A clean public template should be extracted later.
+
+## Reference / learning experiments
+
+- **RAG Search API** — a forked / reference-based RAG search backend experiment. Useful for learning and internal exploration, but not positioned as an original flagship project.
 
 ## Writing and channels
 
