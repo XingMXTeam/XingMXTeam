@@ -16,6 +16,7 @@ The account should highlight AI workflows, agent tooling, creator tools, content
 - [x] Link to personal site, featured projects, and public channels.
 - [x] Prioritize public projects in the profile README.
 - [x] Avoid linking private repositories directly from the public profile.
+- [x] Remove forked / reference-based projects from flagship positioning.
 - [ ] Pin only the most relevant repositories.
 - [ ] Remove low-signal repositories from the first impression.
 
@@ -36,7 +37,7 @@ The account should highlight AI workflows, agent tooling, creator tools, content
 | Repository | Action | Status |
 | --- | --- | --- |
 | `frontend-map` | Keep as historical frontend knowledge asset. | README repositioned as legacy frontend knowledge archive. |
-| `rag-search` | Keep as AI/RAG experiment if the README clearly states scope and originality. | README rewritten. |
+| `rag-search` | Keep only as forked / reference-based RAG learning experiment. | README rewritten, moved out of flagship positioning. Do not pin. |
 | `crawler_ai_info` | Review and decide whether it supports creator-operation positioning. | README added. Likely merge with crawler extension later. |
 | `crawler_ai_chrome` | Review and decide whether it supports creator-operation positioning. | README rewritten as Twitter / X crawler extension experiment. |
 | `Convert-to-HD-Video` | Add README or archive depending on usefulness. | README added. Still needs implementation details. |
@@ -112,10 +113,17 @@ Current public-only pin suggestion:
 
 1. `xiaohongshushipfast`
 2. `a-simple-mcp`
-3. `rag-search`
-4. `crawler_ai_chrome`
-5. `frontend-map`
-6. `maoxunxing.com`
+3. `crawler_ai_chrome`
+4. `frontend-map`
+5. `maoxunxing.com`
+
+Keep the sixth pin empty for now rather than pinning a weak or forked project.
+
+Do not pin:
+
+- `rag-search` because it is forked / reference-based.
+- `agent-workstation` until it is public-ready.
+- `ebook-maker` until a clean public template is extracted.
 
 After cleanup, replace weaker pins with:
 
@@ -126,6 +134,8 @@ After cleanup, replace weaker pins with:
 
 - [x] Updated profile README.
 - [x] Reworked profile README to prioritize public repositories.
+- [x] Removed `rag-search` from profile featured projects.
+- [x] Moved `rag-search` into reference / learning positioning.
 - [x] Rewrote `xiaohongshushipfast` README.
 - [x] Rewrote `agent-workstation` README.
 - [x] Cleaned `agent-workstation/package.json` metadata.
