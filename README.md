@@ -1,4 +1,4 @@
-# Hi, I'm Felix Mao / 毛毛星
+# Hi, I'm Momo / 毛毛星
 
 I'm an AI application engineer and frontend/full-stack developer based in Hangzhou.
 
