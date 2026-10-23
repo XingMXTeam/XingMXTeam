@@ -14,6 +14,14 @@ I spent 10+ years building frontend systems at NetEase and Alibaba, and now focu
 
 ## Featured public projects
 
+### [ai-code-gate](https://github.com/XingMXTeam/ai-code-gate)
+
+Deterministic quality gates for AI-generated code: five-dimension scoring (structure / data / logic / ui / e2e), named compound gates, honest evidence, and governance that stops an agent from lowering its own bar. Zero dependencies. Background write-up: [Harness engineering for AI frontend development](https://maoxunxing.com/zh-cn/harness-engineering-ai-frontend/).
+
+### [FreeToken Bots](https://github.com/XingMXTeam/freetoken-bots)
+
+Free LLM models for AI agents — re-checked daily against the live OpenRouter catalog and actually called to prove they still answer, with copy-paste recipes (Pi agent included). Live status page: [maoxunxing.com/ai/free-llm-models](https://maoxunxing.com/ai/free-llm-models/).
+
 ### [Xiaohongshu AI Operator](https://github.com/XingMXTeam/xiaohongshushipfast)
 
 An AI content operation system for creators, personal brands, and small teams. The goal is not just AI writing, but a repeatable content operating system: topic discovery, competitor analysis, note drafting, publishing plans, and review loops.
