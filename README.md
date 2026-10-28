@@ -4,15 +4,11 @@ AI full-stack engineer. 11 years building frontend systems (Alibaba 7 years, Net
 
 ## Building now
 
-### [ai-code-gate](https://github.com/XingMXTeam/ai-code-gate)
+### [frontend-harness-cli](https://github.com/XingMXTeam/frontend-harness-cli)
 
-Deterministic quality gates for AI-generated code: five-dimension scoring (structure / data / logic / UI / e2e), named compound gates, and honest evidence — with governance that stops an agent from lowering its own bar. Zero dependencies.
+A Harness kernel for long-running frontend AI coding: file-based state that survives killed processes, per-feature rubrics with veto evaluation (one fatal flaw fails the run, no matter how high the average), and budget pauses that hand control back to a human. Three layers, one verdict — a bundled pack of 8 production Agent Skills guides the agent, the kernel owns state and evaluation, and a five-dimension deterministic code sensor (structure / data / logic / UI / e2e) feeds the rubric. Zero dependencies. My earlier **ai-code-gate** and **harness-skills** now live inside this repo as its sensor and behavior layers.
 
 Background write-up: [Harness engineering for AI frontend development](https://maoxunxing.com/zh-cn/harness-engineering-ai-frontend/)
-
-### [harness-skills](https://github.com/XingMXTeam/harness-skills)
-
-8 production Agent Skills, distilled from real frontend / AI-coding work — each with a real output preview, not a prompt dump. The reusable layer behind ai-code-gate.
 
 ### [freetoken-bots](https://github.com/XingMXTeam/freetoken-bots)
 
